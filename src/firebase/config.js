@@ -4,13 +4,13 @@ import { getAuth } from 'firebase/auth'
 import { getFirestore, FieldValue, serverTimestamp } from 'firebase/firestore'
 
 const firebaseConfig = {
-    apiKey: "AIzaSyC7WL65fyeoBLEJweVOEzVzksPepcmZ4VE",
-    authDomain: "project-1-1-a333d.firebaseapp.com",
-    projectId: "project-1-1-a333d",
-    storageBucket: "project-1-1-a333d.appspot.com",
-    messagingSenderId: "968838687295",
-    appId: "1:968838687295:web:f7b2850b30242a488de68a"
-  };
+    apiKey: process.env.VUE_APP_FIREBASE_API_KEY,
+    authDomain: process.env.VUE_APP_FIREBASE_AUTH_DOMAIN,
+    projectId: process.env.VUE_APP_FIREBASE_PROJECT_ID,
+    storageBucket: process.env.VUE_APP_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: process.env.VUE_APP_FIREBASE_MESSAGING_SENDER_ID,
+    appId: process.env.VUE_APP_FIREBASE_APP_ID
+};
   
   const app = initializeApp(firebaseConfig)
 
