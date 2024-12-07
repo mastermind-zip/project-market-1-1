@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+/*
+color: 7CB9E8	70A7D1 89c0ea
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  background-color: #ffffff;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.heading-primary {
+  color: #fdfdfd;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.heading-primary {
+  font-size: 4.4rem;
+  line-height: 1.05;
+  margin-bottom: 3.2rem;
+}
+
+:root {
+  --text-fnt-1: "Nunito", sans-serif;
+  --text-fnt-2: "Lora", serif;
+  --text-fnt-3: "Josefin Sans", sans-serif;
+  --text-size-1: 2em;
+  --clr-palette-1: #7CB9E8;
+  --text-clr-1: white;
+  --text-clr-2: black;
+  --text-clr-3: #39393a;
+  --clr-palette-2: #0000000d;
+  --bx-shd: 0 1px 2px 0 #0000001a;
+}
+
+
+
+@media (max-width: 56em) {
+
+  .heading-primary {
+    font-size: 3.6rem;
+  }
+  
+}
