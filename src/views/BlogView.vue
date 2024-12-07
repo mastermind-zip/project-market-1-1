@@ -4,7 +4,7 @@
         <div class="main-container">
             <h1 class="heading-primary">Welcome to our blog</h1>
             <p class="sub-heading">Everyone here can share their opinion on our product.</p>
-            <h3 class="section-name">Latest articles</h3>
+            <h3 class="section-name">Latest article</h3>
             <div class="blogs-container" v-if="documents">
                 <div class="blog" v-for="doc in documents" :key="doc.id">
                     <div class="blog-img-box">
